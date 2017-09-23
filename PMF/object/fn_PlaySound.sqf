@@ -2,7 +2,7 @@
 Plays a sound globaly
 
 Usage:
-["SirenSCOTS",player] remoteExecCall ["PMF_fn_ObjectPlaySound"];
+["SirenPMC",player] remoteExecCall ["PMF_fn_ObjectPlaySound"];
 
 by Master Puffin
 */

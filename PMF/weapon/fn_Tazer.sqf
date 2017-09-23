@@ -18,12 +18,10 @@ if(
     if(alive player && (player distance _source) < 50 && PMF_var_Godmode isEqualTo false) then {
         [] spawn {
             PMF_var_PlayerTazed = true;
-            //player allowDamage false;
             player setUnconscious true;
             uiSleep 10;
             player setUnconscious false;
             player playMoveNow "AmovPercMstpSnonWnonDnon";
-            //player allowDamage true;
             PMF_var_PlayerTazed = false;
         };
         _damage = _old;
