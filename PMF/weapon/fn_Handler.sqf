@@ -1,5 +1,6 @@
 /*
     Author: Bryan "Tonic" Boardwine
+    NEEDS "playerEventHandler.sqf"!
 
     Description:
     Handles various different ammo types being fired.

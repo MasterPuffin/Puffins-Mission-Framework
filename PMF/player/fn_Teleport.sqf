@@ -1,5 +1,6 @@
 /*
 Teleports to a location on the map
+NEEDS A MARKER ON THE MAP!
 
 by Master Puffin
 */
