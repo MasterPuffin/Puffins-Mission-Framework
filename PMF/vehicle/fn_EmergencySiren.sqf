@@ -1,6 +1,7 @@
 /*
 Plays a siren sound
 NEEDS TO BE CONFIGURED / FITTING SOUNDS IN DESCRIPTION.EXT!
+NEEDS "PMF_fn_VehicleCallEmergencySiren"!
 
 by Master Puffin
 */

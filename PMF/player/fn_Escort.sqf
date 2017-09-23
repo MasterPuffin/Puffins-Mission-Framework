@@ -1,5 +1,6 @@
 /*
 Lets a player escort an restrained player
+NEEDS "PMF_fn_PlayerRestrain" AND "PMF_fn_PlayerCallRestrain"!
 
 by Master Puffin
 */

@@ -1,6 +1,7 @@
 /*
 	Author: mindstorm, modified by Adanteh, modified by Master Puffin
 	Link: http://forums.bistudio.com\showthread.php?157474-Offroad-Police-sirens-lights-and-underglow
+  NEEDS "PMF_fn_VehicleCallEmergencyLights"!
 
 	Description:
 	Adds the light effect to cop vehicles, specifically the offroad.

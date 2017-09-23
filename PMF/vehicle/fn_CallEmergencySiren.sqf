@@ -1,7 +1,8 @@
 /*
 Calls vehicle emergency siren
+NEEDS "PMF_fn_VehicleEmergencySiren" AND "PMF_fn_ObjectPlaySound" AND FITTING SOUND IN DESCRIPTION.EXT!
 
-by ?
+by Master Puffin
 */
 
 _type = _this select 0;

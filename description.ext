@@ -1,0 +1,44 @@
+/*
+default description.ext for PMF
+
+by Master Puffin
+*/
+
+class CfgSounds
+{
+	sounds[] = {};
+	class flashbang
+	{
+		name = "flashbang_explosion";
+		sound[] = {"resources\sounds\flashbang.ogg", 1, 1,30};
+		titles[] = {1, ""};
+	};
+
+		class SirenPMC
+	{
+		name = "SirenPMC";
+		sound[] = {"resources\sounds\SirenPMC.ogg", 5.0, 1};
+		titles[] = {1, ""};
+	};
+
+		class SirenPolice
+	{
+		name = "SirenPolice";
+		sound[] = {"resources\sounds\SirenPolice.ogg", 4.0, 1};
+		titles[] = {1, ""};
+	};
+		class Yelp
+	{
+		name = "Yelp";
+		sound[] = {"resources\sounds\Yelp.ogg", 5.0, 1};
+		titles[] = {1, ""};
+	};
+
+	class cuff
+	{
+		name = "Cuff";
+		sound[] = {"resources\sounds\Cuff.ogg", 1.0, 1};
+		titles[] = {1, ""};
+	};
+
+};

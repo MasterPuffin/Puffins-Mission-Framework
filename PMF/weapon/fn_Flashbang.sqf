@@ -1,6 +1,6 @@
 /*
     Author:
-
+    NEEDS "PMF_fn_WeaponHandler" AND FITTING SOUND IN DESCRIPTION.EXT!
     Description:
     Handles flash-banging yeahhhh..
 */

@@ -1,5 +1,6 @@
 /*
 Calls restrain function
+NEEDS "PMF_fn_PlayerRestrain"!
 
 by Master Puffin
 */

@@ -1,5 +1,6 @@
 /*
 Moves the hands of a player up to a restrain position
+NEEDS "PMF_fn_PlayerCallRestrain" AND "PMF_fn_ObjectPlaySound" AND FITTING SOUND IN DESCRIPTION.EXT!
 
 by Master Puffin
 */
