@@ -6,8 +6,6 @@ https://www.unknowncheats.me\forum\arma-3-a\125187-diamond-wallhack-box.html
 Modified by Master Puffin
 */
 
-if (rdm isEqualTo true) exitWith {};
-
 if (isnil("PMF_var_AdminWallhack")) then {
   PMF_var_AdminWallhack = false;
 };
