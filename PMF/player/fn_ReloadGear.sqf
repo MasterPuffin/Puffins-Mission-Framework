@@ -22,9 +22,9 @@ if (renewLoadout isEqualTo false) then {
   sleep 0.01;
 
   player setUnitLoadout _loadout;
-  hint "Loadout neu geladen!";
+  hint "Reloaded gear!";
   sleep 60;
   renewLoadout = false;
 } else {
-  hint "Du kannst nur alle 1 Minute dein Loadout neu laden"
+  hint "You can only reload your gear every 1 minute"
 };

@@ -4,9 +4,9 @@ Lets the player parajump from a choosen location on the map
 by Master Puffin
 */
 
-if (vehicle player != player) exitWith {hint "Du darfst in keinem Fahrzeug sitzen!"};
+if (vehicle player != player) exitWith {hint "Get out of your vehicle first!"};
 []spawn{
-  cutText ["Klicke irgendwo auf die Map, um von dort abzuspringen", "PLAIN"];
+  cutText ["Click somewhere on the map to jump from there", "PLAIN"];
   _loadout = getUnitLoadout player;
   player addBackpack "B_Parachute";
   openMap [true, true];

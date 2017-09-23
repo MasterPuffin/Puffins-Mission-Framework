@@ -5,9 +5,9 @@ by Master Puffin
 */
 
 _truck = cursortarget;
-if (vehicle player != player) exitWith {hint "Du darfst nicht im Fahrzeug sitzen!"};
+if (vehicle player != player) exitWith {hint "Please move outside of the vehicle!"};
 if (player distance _truck > 3) exitWith {};
-if not ("ToolKit" in items player) exitWith {hint "Du brauchst einen Werkzeugkasten um das Fahrzeug zu reparieren!"};
+if not ("ToolKit" in items player) exitWith {hint "You need a toolkit to repair this vehicle!"};
 PMF_var_VehicleRepair = true;
 []spawn {
   while {PMF_var_VehicleRepair isEqualTo true} do {
@@ -21,4 +21,4 @@ PMF_var_VehicleRepair = false;
 if (vehicle player != player) exitWith {};
 player removeItem "ToolKit";
 _truck setdammage 0;
-hintSilent "Auto repariert";
+hintSilent "Vehicle repaired";
